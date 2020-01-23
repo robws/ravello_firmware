@@ -59,10 +59,10 @@ const uint8_t PROGMEM question[] = {
 const rect_t screen_r = {0, 0, 24, 7};
 
 uint8_t EEMEM ee_strings[4][MACRO_MAX_LEN+1] = {
-	"Coraline❤",
-	"Samuel❤",
-	"Veronica❤",
-	"Nellie❤"
+	"Coraline <(^-^)>",
+	"Samuel <(^o^)>",
+	"Nellie (_*_)",
+	"Veronica <(o-o)>",
 };
 
 static uint8_t next_symbol(uint8_t symbol)

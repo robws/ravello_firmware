@@ -150,3 +150,18 @@ dos2unix
 
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
+
+
+dfu-programmer atmega32u4 erase
+dfu-programmer atmega32u4 flash --eeprom eeprom_reset.hex
+
+dfu-programmer atmega16u2 erase --force
+dfu-programmer atmega16u2 flash ukbdc_techkeys2-0.1.hex
+dfu-programmer atmega16u2 flash --eeprom ukbdc_techkeys2-0.1_ee.hex --force
+
+dfu-programmer atmega16u2 reset
+
+
+
+dfu-programmer atmega16u2 flash --eeprom ukbdc_techkeys2-0.1_ee.hex --force
+Nellie
